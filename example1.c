@@ -2,7 +2,7 @@
 
 int main(){
     int i;
-    FILE *myFile;
+    FILE *myFile; //myFile 포인터 변수 선언-->파일 작업 수행할 때 사용된다
     double price[2]={139.25,19.03};
     char *description[2]={"glove","CD"};
 
