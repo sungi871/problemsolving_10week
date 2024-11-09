@@ -22,7 +22,7 @@ void main() {
 
     // 입력 파일에서 정수를 읽고 합산
   //Read and sum the integers from the input file and write the sum to the output file
-    while (fscanf(inFile, "%d", &a) == 1) { // 파일 끝까지 반복
+    while (fscanf(inFile, "%d", &a) == 1) { // 파일 끝까지 반복 //inFile에서 정수(%d)를 읽어와 a에 저장합니다. 이때 &a는 a 변수의 주소를 뜻합니다. fscanf 함수는 이 주소를 통해 읽어온 정수 데이터를 a에 저장합니다.
         sum += a;
     }
     
