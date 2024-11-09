@@ -5,7 +5,7 @@ int main(){
     char line[100];
     int lcount=0;
 
-    inFile=fopen("/Users/admin/Downloads/input_files/charstream.txt","r"
+    inFile=fopen("/Users/admin/Downloads/input_files/charstream.txt","r");
     if(inFile)==NULL){
         printf("File Could Not Be Opened.\n");
         exit(1);
